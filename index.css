@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(20, 20, 20);
+}
+
+header {
+    background-color: rgb(225, 0, 255);
+    text-decoration: none;
+    text-align: center;
+    color: rgb(87, 23, 87);
+}
+
+.toolBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+
+.toolBar>li {
+    float: left;
+}
+
+.toolBar>li a {
+    display: block;
+    color: white;
+    padding: 16px;
+    padding-inline: 217px;
+    text-decoration: none;
+}
+
+.toolBar>li a:hover {
+    background-color: #111111;
+}
